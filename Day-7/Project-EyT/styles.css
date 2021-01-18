@@ -1,0 +1,7 @@
+@media (max-width: 480px) {
+    body {
+      /* The file size of this background image is 93% smaller
+         to improve page load speed on mobile internet connections */
+      background-image: url(https://raw.githubusercontent.com/kahanikaar/Project-EyT/master/20200712_031013_0000.png);
+    }
+  }

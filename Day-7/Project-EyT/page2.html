@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Page 2</title>
+    </head>
+    <body>
+Name <span id="name"></span>
+<img id="output1" style="margin-left:30%; margin-bottom: 5%;">
+<script>
+document.getElementById("result").innerHTML=localStorage.getItem("name");
+
+var image = document.getElementById('output1');
+	image.src = URL.createObjectURL(localStorage.getItem("imgsrc"));
+
+</script>
+
+    </body>
+</html>
